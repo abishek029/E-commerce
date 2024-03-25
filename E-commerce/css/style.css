@@ -1,0 +1,498 @@
+
+                                  /*nav start*/
+.search-form {
+  border-radius: 6rem;
+  height: 2.5rem;
+  width: 22rem;
+  padding: 0 1rem;
+  display: flex;
+  background: #fff;
+
+}
+
+.search-form input {
+  width: 100%;
+  border: none;
+  font-size: 1.1rem;
+  color: #666;
+  outline: none;
+}
+
+.search-form label {
+  font-size: 1.5rem;
+  color: #FFA500;
+  cursor: pointer;
+  padding-top: .5rem;
+
+}
+
+.navrig{
+  display: flex;
+  gap:20px;
+}
+
+#cart{
+  font-size: 25px;
+  padding-top: .4rem;
+  padding-right: .5rem;
+  color: #FFA500;
+  cursor: pointer;
+}
+
+.navbar{
+  background-color: #FBF8F0;
+  height: 4rem;
+  position: sticky;
+  top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar-brand{
+  color: #800000;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navbar-brand span{
+  color: #FFA500;
+  font-weight: 1000;
+  font-size: 1.7rem;
+}
+
+.navbar-brand:hover{
+  color: #800000;
+}
+
+                                    /*topsale start*/
+
+.btn{
+  background-color:#FFA500;
+  color: white;
+}
+
+.btn:hover{
+  color: white;
+}
+#banner-area{
+  padding-bottom: 1rem;
+}
+
+#ban img{
+  height: 25rem;
+}
+
+#top-sale{
+  
+  margin: 0rem 5rem;
+  padding: 0rem 2rem;
+
+}
+
+#new-phones{
+  margin: 0rem 5rem;
+  padding: 0rem 2rem;
+}
+
+
+
+                                   /* first-ban start*/
+
+
+.price .py-2{
+  color: red;     
+}
+
+.rprice{
+  font-size:1.2rem;
+}
+
+.dprice{
+  color: red;
+  text-decoration: line-through;
+  font-size: 0.9rem;
+}
+
+
+                              /*deal start*/
+
+
+.deal{
+    padding: 2.5rem 1rem .5rem 1rem; 
+}
+.deal .row1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #FBF8F0;
+    overflow-x: hidden;
+    margin: 0rem 3rem;
+}
+
+.deal .row1 .image img{
+    width:30rem;
+}
+
+.deal .row1 .discount{
+    font-size: 2rem;
+}
+
+.deal .row1 .text{
+    font-size: 2rem;
+}
+
+.deal .row1 .count-down{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    padding-bottom: 0.6rem;
+}
+
+.deal .row1 .count-down h3{
+    font-size: 3rem;
+}
+
+.deal .row1 .count-down span{
+    font-size: 1rem;
+}
+
+.row1 .content{
+  width: 28rem;
+}
+
+
+                                  /*category start*/
+
+
+.category{
+  padding: 2.5rem 0;
+}
+
+.category .box-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap
+}
+
+.category .box-container .box {
+  text-align: center;
+  border-radius: .5rem;
+  border: 0.2rem solid #333;
+  padding: 1.2rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.category .box-container .box:hover {
+  background: #FFA500;
+}
+
+.category .box-container .box:hover h3 {
+  color: #fff;
+}
+
+.category .box-container .box img {
+  height: 8rem;
+  margin-bottom: .5rem;
+}
+
+.category .box-container .box h3 {
+  font-size: 1.7rem;
+  color: #333;
+}
+                              
+                              /*banner-AD start*/
+
+.banner {
+  display: flex;  
+  overflow-x:hidden;
+  justify-content:center;
+  padding: 2.5rem 0rem 1.5rem 0rem;
+  margin: 0rem 5rem;
+  flex-wrap: wrap;
+}
+
+.banner .box {
+  position: relative;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: .5rem;
+  width: 21rem;
+
+}
+
+.banner .box img {
+  height: 15rem;
+  width: 20rem;
+  object-fit: cover;
+      padding-bottom: 1rem;
+}
+
+.banner .box .content {
+  position: absolute;
+  top: 50%;
+  right: 11rem;
+  transform: translateY(-50%);
+}
+
+.banner .box .content span {
+  font-size: 1rem;
+  color: #333;
+}
+
+.banner .box .content h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.banner .box .content .btn {
+  font-size: 1rem;
+}
+
+#rowfo{
+  justify-content: space-around;
+}
+
+#topsa{
+  padding-top: 2rem;
+}
+
+#proimg img{
+  height: 11.5rem;
+}
+
+#pro-ban {
+  color: black;
+  font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+
+  #top-sale,#new-phones{
+  
+  margin: 0rem 2rem;
+  padding: 0rem 1rem;
+
+  }
+
+  .deal{
+    padding:1rem 0rem;
+  }
+
+  .deal .row1 .image img{
+    width:20rem;
+  }
+
+  
+
+ 
+}
+
+
+@media (max-width: 750px) {
+
+  #ban img{
+  height: 18rem;
+  }
+
+  #top-sale,#new-phones{
+  
+  margin: 0rem;
+  padding: 0rem;
+
+}
+
+.deal .row1{
+  margin: 0rem;
+}
+
+  .deal .row1 .discount{
+    font-size: 1.2rem;
+}
+
+.deal .row1 .text{
+    font-size: 1.5rem;
+}
+
+.deal .row1 .count-down{
+  gap:.6rem;
+}
+
+.deal .row1 .count-down h3{
+    font-size: 1.2rem;
+}
+
+.deal .row1 .count-down span{
+    font-size: 1rem;
+}
+
+ 
+}
+
+@media (max-width: 550px) {
+
+  .search-form{
+    display: none;
+  }
+
+  #ban img{
+  height: 16rem;
+  }
+
+  #proimg img {
+    height: 8rem;
+    }
+
+    .banner {
+  margin: 0rem 0rem;
+}
+
+    .deal .row1 .image img{
+    width:12rem;
+  }
+
+
+}
+
+
+@media (max-width: 400px) {
+
+    .deal .row1{
+      flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
